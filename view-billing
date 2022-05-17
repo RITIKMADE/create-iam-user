@@ -1,0 +1,18 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "iam:ListSAMLProviders",
+                "iam:ListServerCertificates",
+                "iam:ListSAMLProviderTags",
+                "aws-portal:ViewBilling",
+                "iam:GetLoginProfile",
+                "iam:GetAccountSummary"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
